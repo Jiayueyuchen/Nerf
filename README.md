@@ -18,9 +18,9 @@ pip install torch torchvision scikit-image imageio matplotlib configargparse
 
 ## 训练与测试
 ### 1. 启动训练
-'''
+``` python
 python run_nerf.py --config configs/test.txt --spherify --no_ndc
-'''
+```
 
 ### 2. 恢复中断训练
 python run_nerf.py
