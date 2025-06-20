@@ -11,10 +11,12 @@ pip install torch torchvision scikit-image imageio matplotlib configargparse
 ## 数据集准备
 1. 将自定义数据集放置在`data/nerf_llff_data/test/`目录下
 2. 确保包含以下文件结构：
+```
 ├── images/ # 场景图像（JPG/PNG格式）
 ├── images_8/
 ├── sparse/
 └── poses_bounds.npy # 相机位姿与边界数据
+```
 
 ## 训练与测试
 ### 1. 启动训练
