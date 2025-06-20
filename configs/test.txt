@@ -1,0 +1,16 @@
+expname = test
+basedir = ./logs
+datadir = ./data/nerf_llff_data/test
+dataset_type = llff
+
+factor = 8
+llffhold = 1
+
+N_rand = 1024
+N_samples = 128
+N_importance = 128
+white_bkgd = True
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
